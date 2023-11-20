@@ -1,0 +1,98 @@
+        /* Styling navigasi kiri */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(51, 51, 51, 0.9); /* Transparan dengan warna abu-abu gelap */
+            padding-top: 20px;
+            transition: 0.5s;
+            overflow-x: hidden; /* Menyembunyikan overflow horizontal saat ditutup */
+        }
+        
+        .sidenav a {
+            display: block;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #ffffff;
+            transition: 0.3s; /* Animasi perubahan warna saat di-hover */
+        }
+
+        .sidenav a:hover {
+            background-color: #666;
+        }
+
+        /* Styling konten utama */
+        .content {
+            padding: 20px;
+            transition: 0.5s;
+            margin-top: -70px;
+            margin-right: 250px;
+            margin-left: -50px;
+            
+            
+        }
+
+        /* Styling toggle button (hamburger) */
+        .menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        .bar {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        /* Styling card */
+        .card {
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 170px; /* Mengatur lebar card */
+            margin: 9px; /* Menambahkan jarak antar card */
+            display: inline-block; /* Menampilkan card dalam satu baris */
+        }
+
+        .card .card-body {
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* Styling cart container */
+        .cart-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 280px; /* Sesuaikan ukuran sesuai kebutuhan */
+            background-color: #FFFFFF;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Styling cart item */
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .buttonNavbar{
+            margin-top: 80px;
+            margin-left: 30px;
+            
+        }
+
+        
+
+        
